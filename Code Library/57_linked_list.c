@@ -25,6 +25,23 @@ struct node * append(struct node *root,int a){
     return root;
 }
 
+struct node *delete(struct node *root,int a){
+    struct node *temp1=root;
+    struct node *prev=NULL;
+    int count=0;
+    while(temp1!=NULL){
+        if (count==a){
+            prev->next=temp1->next;
+            break;
+        }
+        prev=temp1;
+        temp1=temp1->next;
+        
+        count++;
+    }
+    return root;
+}
+
 void print(struct node *root){
     struct node *temp=root;
     while(temp!=NULL){
@@ -35,7 +52,13 @@ void print(struct node *root){
 
 int main() {
     struct node *root = NULL;
-    append(root,10);
+    
+    root=append(root,10);
+    root=append(root,20);
+    root=append(root,30);
+    root=append(root,40);
+    root=delete(root,2);
+
     print(root);
     return 0;
 }
