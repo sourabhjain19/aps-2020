@@ -16,10 +16,8 @@ def binary_search(Array, Search_Term):
             return mid
     return -1
 
-
-# Insert your array here
 A = list(map(int, input("Enter the list : ").split()))
-# term to be searched
+
 term = int(input("Enter the item to be searched : "))
 
 index = binary_search(A, term)
