@@ -1,4 +1,4 @@
-#  Numbers which have repeating Aliquot sequence of length 1 are called Perfect Numbers. For example 6, sum of its proper divisors is 6.
+# Numbers which have repeating Aliquot sequence of length 1 are called Perfect Numbers. For example 6, sum of its proper divisors is 6.
 # Numbers which have repeating Aliquot sequence of length 2 are called Amicable numbers. For example 220 is a Amicable Number.
 # Numbers which have repeating Aliquot sequence of length 3 are called sociable number.
 

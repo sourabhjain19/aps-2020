@@ -1,5 +1,5 @@
 # Gould’s sequence is an integer sequence whose nth term tells the count of odd numbers in n-1th row of the pascal triangle. 
-# This sequence is consist of only power’s of 2.
+# This sequence consist of only power’s of 2.
 
 def gouldSequence(n): 
   
